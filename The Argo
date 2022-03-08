@@ -1,0 +1,97 @@
+<<!DOCTYPE html>
+<html lang = "fr">
+  <head> <link href = "style.css" rel = "stylesheet" type = "text/css" />
+    <meta charset = "UTF-8" />
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge" />
+    <title>The Argo</title>
+    <link href = "style.css" rel = "stylesheet" type = "text/css" />
+  </head>
+   <body>
+    <section id = "welcome">
+    <h1>Bienvenue Moussaillons!</h1>
+     <img src = "assets/logoargo.PNG" alt = "logoargo"> 
+    </section>
+    <section id = "history"
+      <h2>Voici notre histoire</h2>
+      <p>
+      L'Argo est un fabuleux bateau et sa réputation remonte à la grèce
+      antique...
+      Argo was constructed by the shipwright Argus, and its crew were
+        specially protected by the goddess Hera. ... According to a variety of
+        sources of the legend, Argo was said to have been planned or constructed
+        with the help of Athena. According to certain sources, Argo was the
+        first ship to sail the seas.
+      </p>
+    </section>
+    <section id = "heroes">
+    <h2>Our Argo Heroes</h2>
+    <div class = "flex-container">
+    
+      <div> <img src = "assets/ares.jpg" alt = "200px"/>
+      <p>Ares</p>
+      <p> We shall have fun!</p>
+      </div>
+      <div> <img src = "assets/artemis.jpg" alt = "200px">
+      <p>Artémis</p>
+      <p>Know thyself</p>
+      </div>
+      <div> <img src = "assets/hercules.jpg" alt = "200px">
+      <p>Hercules</p>
+      <p> I am on my way. I can go the distance. 
+        <br>I don't care how far, somehow I will be strong</br>
+      </p>
+      </div>
+    </div>
+     
+    </section>
+    <section id = "inventory">
+        <h2>Inventory</h2>
+      <table>
+      <caption>Provisions</caption><br/>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Amount</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Water canisters</td>
+            <td>102</td>
+            <td>4 weeks</td>
+          </tr>
+          <tr>
+            <td>Bread</td>
+            <td>35</td>
+            <td>7 days</td>
+          </tr>
+          <tr>
+            <td>Goats</td>
+            <td>20</td>
+            <td>2 weeks</td>
+          </tr>
+          <tr>
+            <td>Sandals</td>
+            <td>99</td>
+            <td>Eternity</td>
+          </tr>
+        </tbody>
+    </table>
+    </section>
+    <section id = "contact">
+      <form id = "contactform">
+        <label for = "firstname">Firstname:</label><br>
+        <input type = "text" id = "firstname" name = "fname" value = "John"><br>
+        <label for = "email">Email:</label><br>
+        <input type = "email" id =  "email" name = "email" value = "example@seamail.com"><br>
+        <label for = "message">Message:</label><br>
+        <textarea id = "message" name = "message">Bonjour, je souhaiterais avoir des nouvelles de...</textarea>
+        <br><br>
+        <input type = "button" value = "Send">
+      </form>
+      <script = type = "text/javascript" src = "script.js"></script>
+   </body>
+</html>
